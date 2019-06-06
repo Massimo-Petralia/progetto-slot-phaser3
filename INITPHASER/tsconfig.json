@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "amd",
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": false,// questo valore sembra risolvere l'errore di ovewrite file di input
+      "watch": true,
+      "outFile": "./Example.js",
+      "esModuleInterop": true
+
+    }
+  }
